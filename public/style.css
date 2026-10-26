@@ -271,4 +271,49 @@ select:focus {
     width: 100%;
     justify-content: flex-start;
   }
+}/* Feedback Banner & Secondary Button */
+.btn-secondary {
+  background-color: #e2e8f0;
+  color: #334155;
+  margin-top: 8px;
+  display: none;
+}
+
+.btn-secondary:hover {
+  background-color: #cbd5e1;
+}
+
+.feedback-msg {
+  display: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.feedback-success {
+  display: block;
+  background-color: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.feedback-error {
+  display: block;
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.task-title-completed {
+  text-decoration: line-through;
+  color: #64748b !important;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 32px 16px;
+  color: #64748b;
+  font-size: 14px;
 }
